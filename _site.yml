@@ -1,0 +1,18 @@
+name: "Espacio Económico"
+output_dir: "docs"
+navbar:
+  title: '<div id="logo-container"><img id="logo" style="width: 35px;" src="Recursos/IMG/EE logo.png" /></div>'
+  left:
+    - text: "Principal"
+      href: index.html
+    - text: "Cursos"
+      href: cursos.html
+  
+  right:
+    - text: "Acerca de mí"
+      href: about.html
+output: 
+  html_document:
+    css: 
+      - Recursos/css/navbar.css
+      - Recursos/css/cuerpo.css

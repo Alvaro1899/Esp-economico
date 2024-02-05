@@ -1,0 +1,65 @@
+/* Barra de navegación general */
+.navbar {
+  background-color: #000052;
+  border-radius: 5px;
+  margin: 5px;
+  height: 45px;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+/* Letras despues de */
+.navbar-default .navbar-brand {
+  color: black;
+  background: transparent;
+}
+
+/* Punto de incio en LOGO */
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Letras por defecto en blanco al incio */
+.navbar-default .navbar-nav>.active>a {
+  color: white;
+  background: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #3B3B3B;
+  background: white;
+}
+
+/*Acerca de mi en blanco*/
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  position: relative;
+}
+
+/* Lineas antes o despues de las palabras*/
+.navbar-default .navbar-nav>li>a::before {
+  content: "";
+  position: absolute;
+  left: -5px; /* Ajustar la posición izquierda de la línea */
+  top: 50%; /* Ajustar la posición vertical de la línea */
+  height: 15px; /* Ajustar la altura de la línea */
+  width: 1px; /* Ajustar el ancho de la línea */
+  background-color: white;
+  transform: translateY(-50%); /* Centrar verticalmente la línea */
+}
+
+  /* Color de letra cuando está el cursor */
+.navbar-default .navbar-nav>li>a:hover {
+  color: #3B3B3B;
+  background: white;
+}
+}
+.nav>li>a {
+  background-color: #000052;
+}
+.nav>li{
+  background-color: #000052;  
+}
